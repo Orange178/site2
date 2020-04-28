@@ -1,0 +1,304 @@
+
+html, body {
+    max-width: 100%;
+   
+    padding-right:0px !important;
+}
+
+p{
+  font-family: "Roboto" "Roboto"  sans-serif ;
+  font-size: 20px;
+
+}
+
+nav{
+ 
+  margin-bottom: 0px;
+}
+
+
+
+
+
+img.logo{
+  max-height: 50px;
+  max-width: 50px;
+  margin-top: 1px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+/*Навбар*/
+
+li.nav-item{
+text-align: right;
+  padding-left: 1px;
+  color: grey;
+
+}
+
+/*конец навбара*/
+
+
+/*кнопки ямбатрона*/
+.jumbotron{
+  background: none;
+  padding: 0px;
+}
+
+.content-main{
+    padding-top: 150px;
+
+  text-align: center;
+ color: black;
+height: 850px;
+}
+
+
+
+/*кнопки ямбатрона*/
+
+
+h1.title{
+  font-family: "Roboto" "Roboto"  sans-serif ;
+  color: #dea941;
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+
+h2{
+  font-family: "Roboto" "Roboto"  sans-serif ;
+  color: #dea941;
+font-weight: 700;
+font-size: 26px;
+text-align: center;
+padding-top: 150px;
+padding-bottom: 50px;
+box-sizing: border-box;
+}
+
+h3{
+  font-family: "Roboto" "Roboto"  sans-serif ;
+  color: #dea941;
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+
+box-sizing: border-box;
+}
+
+
+legend{
+  font-family: "Roboto" "Roboto"  sans-serif ;
+  color: #dea941;
+font-weight: 700;
+}
+/*Видео на фоне*/
+
+
+.video-container {
+z-index: -100;
+width:100%;
+height:900px;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+opacity: 0.3;
+box-sizing: border-box;
+}
+
+#video-bg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+div button{
+  padding-right: 30px;
+  margin-top: 50px;
+  
+
+}
+/*конец видео*/
+
+
+
+
+
+
+div.content-about {
+background:none;/*цвет фона*/
+}
+
+div.text-area{
+  text-align: left;
+}
+
+img.work-photo{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+/*слайдер карточек*/
+
+div.carousel-inner{
+  border-radius: 10px;
+  background-color: lightgrey;
+  height: 335px;
+  width: 230px;
+  text-align: center; 
+
+  
+}
+
+div.carousel-inner img{
+  height: 95px;
+  width: 95px;
+
+
+}
+
+
+
+p.card-text{
+  color: white;
+}
+
+h5{
+  text-align: center;
+  color: white;
+
+}
+
+.modal{
+  z-index: 2002;
+}
+
+
+
+.slide,.carousel{
+width: 230px;
+
+}
+
+/*слайдер конец*/
+.whyme{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+    text-align: center;
+  min-height: 450px;
+}
+
+figcaption{
+ font-family: "Roboto" "Roboto"  sans-serif ;
+ font-size: 20px;
+ color: #75553c;}
+
+/*Продукция*/
+
+
+div.carousel-inner{
+  border-radius: 10px;
+  background-color: lightgrey;
+  height: 335px;
+  width: 210px;
+
+}
+
+div.carousel-inner img{
+  height: 100px;
+  width: 100px;
+
+
+}
+
+
+p.card-text{
+ font-family: "Roboto" "Roboto"  sans-serif ;
+  padding-top: 40px;
+  color: white;
+  font-size: 12px;
+}
+
+h5{
+  text-align: center;
+  color: white;
+font-size: 15px;
+}
+
+
+.slide,.carousel{
+width: 210px;
+
+}
+
+h6{
+  text-align: center;
+   font-family: "Roboto" "Roboto"  sans-serif ;
+color: #75553c;
+font-size: 20px;}
+}
+
+
+
+
+
+
+
+
+
+/*Продукция конец*/
+
+.works{
+  padding-top: 60px;
+  min-height: 800px;
+  padding-bottom: 120px;
+}
+
+.myCarusel img{
+height: 530px;
+width: 1024px;
+}
+
+.contacts{
+  height: 575px;
+}
+
+.content-contact{
+  max-height: 530px;
+ padding-left: 45px;
+ box-sizing: border-box;
+
+}
+
+
+
+
+footer{
+  padding-top: 25px;
+    text-align: center;
+
+  min-height: 150px;
+  background-color: #dea941;
+}
+
+
+footer h6{
+  color: white;
+}
+
+.bd-example{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
