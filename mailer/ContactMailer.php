@@ -16,12 +16,12 @@ class ContactMailer
      * E-mail отправителя
      * @var string
      */
-    private static $emailFrom = 'des.l2@yandex.ru';
+    private static $emailFrom = 'email1';
     /**
      * E-mail получателя
      * @var string
      */
-    private static $emailTo = 'sergey1072@list.ru';
+    private static $emailTo = 'email2';
 
     /**
      * Отправляет писмо, если письмо отправлено,
@@ -46,9 +46,9 @@ class ContactMailer
         // Включает SMTP-авторизацию
         $mailer->SMTPAuth = true;
         // Логин или E-mail целиком
-        $mailer->Username = 'des.l2@yandex.ru';
+        $mailer->Username = 'email1';
         // Пароль от почтового ящика
-        $mailer->Password = 'stprnt5fns7';
+        $mailer->Password = 'password';
         // Протокол соединения
         $mailer->SMTPSecure = 'ssl';
         // Порт для исходящаей почты
